@@ -1,0 +1,21 @@
+{
+  "name": "compound-gtm",
+  "owner": {
+    "name": "Revenue Puzzles",
+    "url": "https://revenuepuzzles.com"
+  },
+  "metadata": {
+    "description": "A go-to-market toolbox where every campaign makes the next one easier.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "compound-gtm",
+      "description": "Evidence-graded GTM home, 24 moves and a Plan → Run → Review → Compound loop for B2B go-to-market.",
+      "version": "1.0.0",
+      "author": { "name": "Emil Krzemiński · Revenue Puzzles", "email": "emil@revenuepuzzles.com" },
+      "tags": ["gtm", "revops", "sales", "marketing", "agent-native"],
+      "source": "./"
+    }
+  ]
+}

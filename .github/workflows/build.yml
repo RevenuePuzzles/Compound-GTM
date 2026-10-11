@@ -1,0 +1,34 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Skill, manifests, links and generated files
+        run: python scripts/build.py --check
+
+      - name: create_home.py scaffolds a home and never overwrites
+        run: |
+          set -euo pipefail
+          home="$RUNNER_TEMP/gtm-home"
+          python skills/compound-gtm/scripts/create_home.py "$home" --with-field
+          echo "hand-written line" >> "$home/ICP.md"
+          python skills/compound-gtm/scripts/create_home.py "$home" | tee second-run.txt
+          grep -q "hand-written line" "$home/ICP.md"
+          if grep -q "^created" second-run.txt; then echo "second run created files"; exit 1; fi
+          python skills/compound-gtm/scripts/create_home.py "$home" --motion "Q4 outbound test"
+          test -f "$home"/motions/*-q4-outbound-test/BRIEF.md
+          test -f "$home/README.md"
