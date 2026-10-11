@@ -621,7 +621,7 @@ def social(T: dict) -> Canvas:
     fx = x
     for label in ["24 moves", "evidence-graded GTM home", "Claude + Claude Code"]:
         fx += chip(c, T, fx, 404, label, "plain", 16, 38) + 10
-    c.text(x, 560, "github.com/RevenuePuzzles/Compound-gtm", "mono", 18, T["muted"])
+    c.text(x, 560, "github.com/RevenuePuzzles/Compound-GTM", "mono", 18, T["muted"])
 
     # the logo as the loop: plan → run → review → compound, clockwise from bottom-left
     s, g = 124, 34

@@ -12,7 +12,7 @@
   <a href="#claude-code"><img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-FF5A1F?style=flat-square&labelColor=151518"></a>
   <a href="#the-toolbox"><img alt="24 moves" src="https://img.shields.io/badge/moves-24-151518?style=flat-square&labelColor=4B4B52"></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-151518?style=flat-square&labelColor=4B4B52"></a>
-  <a href="https://github.com/RevenuePuzzles/Compound-gtm/actions/workflows/build.yml"><img alt="build" src="https://github.com/RevenuePuzzles/Compound-gtm/actions/workflows/build.yml/badge.svg"></a>
+  <a href="https://github.com/RevenuePuzzles/Compound-GTM/actions/workflows/build.yml"><img alt="build" src="https://github.com/RevenuePuzzles/Compound-GTM/actions/workflows/build.yml/badge.svg"></a>
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ Tip: keep your GTM home as files in a Claude Project so every chat starts from i
 ### Claude Code
 
 ```
-/plugin marketplace add RevenuePuzzles/Compound-gtm
+/plugin marketplace add RevenuePuzzles/Compound-GTM
 /plugin install compound-gtm@compound-gtm
 ```
 

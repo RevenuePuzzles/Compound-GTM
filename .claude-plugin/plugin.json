@@ -8,7 +8,7 @@
     "url": "https://revenuepuzzles.com"
   },
   "homepage": "https://revenuepuzzles.com/?utm_source=github&utm_medium=plugin&utm_campaign=compound-gtm",
-  "repository": "https://github.com/RevenuePuzzles/Compound-gtm",
+  "repository": "https://github.com/RevenuePuzzles/Compound-GTM",
   "license": "MIT",
   "keywords": ["gtm", "go-to-market", "revops", "sales", "marketing", "icp", "positioning", "outbound", "win-loss", "abm", "compound"]
 }

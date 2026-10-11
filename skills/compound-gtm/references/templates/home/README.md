@@ -1,7 +1,7 @@
 # GTM home
 
 > The team's shared memory for go-to-market. Plain Markdown, read by people and by AI agents before any campaign, sequence or deal plan is drafted.
-> Made with [Compound GTM](https://github.com/RevenuePuzzles/Compound-gtm) by Revenue Puzzles.
+> Made with [Compound GTM](https://github.com/RevenuePuzzles/Compound-GTM) by Revenue Puzzles.
 
 ## What's here
 
