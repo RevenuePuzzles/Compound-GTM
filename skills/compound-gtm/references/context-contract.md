@@ -62,6 +62,8 @@ Load only what the move needs. `sequence` needs `ICP.md`, `POSITIONING.md`, `PRO
 
 - Read a file before editing it. Preserve everything the person wrote.
 - Propose durable changes; write them only when the person confirms or has asked to save.
+- Every lesson needs a **cited incident** — a verifiable conversation, result or observation. Inferences without incidents go under **Open hypotheses**, not as rules.
+- New lessons enter at `provisional` and need external evidence to be promoted to `validated`. See `evidence.md` for the lifecycle rules and caps.
 - Add the date and source to every durable line: `(Heard ×1 · call w/ VP Finance, mid-market holdco · 2026-10-02 · internal)` — full format in `evidence.md`.
 - Never write lessons into this skill's own files or an installed plugin copy.
 - Never send emails, publish pages, launch ads, or edit a CRM or other live system without explicit approval for that specific action.
